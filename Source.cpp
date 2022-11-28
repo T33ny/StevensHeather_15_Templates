@@ -12,7 +12,7 @@ T half(T num)		//halves numbers sent to function
 	T part;
 	part = num / 2;
 
-	return part;
+	return part;	//returns the number halved
 }
 
 
