@@ -14,7 +14,12 @@ T half(T num)		//halves numbers sent to function
 
 	return part;	//returns the number halved
 }
-
+int half(int num)	//explicitly specified for ints
+	{
+	
+		return round(static_cast<double>(num)/2);
+	
+	}
 
 int main()
 {
