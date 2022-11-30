@@ -16,11 +16,8 @@ T half(T num)		//halves numbers sent to function
 }
 int half(int num)	//explicitly specified for ints
 	{
-	
 		return round(static_cast<double>(num)/2);
-	
 	}
-
 int main()
 {
 	double a = 7.0;
@@ -31,7 +28,6 @@ int main()
 	cout << half(b) << endl;
 	cout << half(c) << endl;
 	
-
 	system("pause");
 	return 0;
 }
